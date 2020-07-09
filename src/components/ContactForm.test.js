@@ -43,8 +43,8 @@ test('ContactForm allows typing in each input field', () => {
   });
 
   // [3] ASSERT
-  expect(screen.getByDisplayValue(/abcdefg/i)).toBeInTheDocument();
-  expect(screen.getByDisplayValue('Moore')).toBeInTheDocument();
-  expect(screen.getByDisplayValue(/barbara@moore.com/i)).toBeInTheDocument();
-  expect(screen.getByDisplayValue(/lambda student/i)).toBeInTheDocument();
+  expect(screen.getByDisplayValue(/nic/i)).toBeInTheDocument();
+  expect(screen.getByDisplayValue(/lehman/i)).toBeInTheDocument();
+  expect(screen.getByDisplayValue(/email@email.com/i)).toBeInTheDocument();
+  expect(screen.getByDisplayValue(/lambda rocks/i)).toBeInTheDocument();
 });
